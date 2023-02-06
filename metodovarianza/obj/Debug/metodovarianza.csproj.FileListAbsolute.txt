@@ -1,0 +1,15 @@
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\bin\Debug\metodovarianza.exe.config
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\bin\Debug\metodovarianza.exe
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\bin\Debug\metodovarianza.pdb
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\bin\Debug\CuadradosMedios.dll
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\bin\Debug\MetodosComunes.dll
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\bin\Debug\CuadradosMedios.pdb
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\bin\Debug\MetodosComunes.pdb
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.csprojAssemblyReference.cache
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.Form1.resources
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.Properties.Resources.resources
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.csproj.GenerateResource.cache
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.csproj.CoreCompileInputs.cache
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.csproj.CopyComplete
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.exe
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\metodovarianza\obj\Debug\metodovarianza.pdb

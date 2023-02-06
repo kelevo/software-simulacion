@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73E72EBE-FF95-4808-A633-A20FEAEDFADB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>simulacion2019</RootNamespace>
+    <AssemblyName>simulacion2019</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlgCuadradosMedios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgCuadradosMedios.Designer.cs">
+      <DependentUpon>AlgCuadradosMedios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlgProductoMedioModificado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgProductoMedioModificado.Designer.cs">
+      <DependentUpon>AlgProductoMedioModificado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlgProductosMedios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgProductosMedios.Designer.cs">
+      <DependentUpon>AlgProductosMedios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO.Designer.cs">
+      <DependentUpon>INICIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mconvolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mconvolucion.Designer.cs">
+      <DependentUpon>Mconvolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menusimulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menusimulacion.Designer.cs">
+      <DependentUpon>menusimulacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetodoCongAditivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetodoCongAditivo.Designer.cs">
+      <DependentUpon>MetodoCongAditivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetodoCongMultiplica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetodoCongMultiplica.Designer.cs">
+      <DependentUpon>MetodoCongMultiplica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetodoCongruencial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetodoCongruencial.Designer.cs">
+      <DependentUpon>MetodoCongruencial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetodoNeumann.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetodoNeumann.Designer.cs">
+      <DependentUpon>MetodoNeumann.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mexponencial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mexponencial.Designer.cs">
+      <DependentUpon>Mexponencial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="montecarlo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="montecarlo.Designer.cs">
+      <DependentUpon>montecarlo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mpoisson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mpoisson.Designer.cs">
+      <DependentUpon>Mpoisson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prueba de la Varianza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prueba de la Varianza.Designer.cs">
+      <DependentUpon>Prueba de la Varianza.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlgCuadradosMedios.resx">
+      <DependentUpon>AlgCuadradosMedios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlgProductoMedioModificado.resx">
+      <DependentUpon>AlgProductoMedioModificado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlgProductosMedios.resx">
+      <DependentUpon>AlgProductosMedios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO.resx">
+      <DependentUpon>INICIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mconvolucion.resx">
+      <DependentUpon>Mconvolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menusimulacion.resx">
+      <DependentUpon>menusimulacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetodoCongAditivo.resx">
+      <DependentUpon>MetodoCongAditivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetodoCongMultiplica.resx">
+      <DependentUpon>MetodoCongMultiplica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetodoCongruencial.resx">
+      <DependentUpon>MetodoCongruencial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetodoNeumann.resx">
+      <DependentUpon>MetodoNeumann.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mexponencial.resx">
+      <DependentUpon>Mexponencial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="montecarlo.resx">
+      <DependentUpon>montecarlo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mpoisson.resx">
+      <DependentUpon>Mpoisson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Prueba de la Varianza.resx">
+      <DependentUpon>Prueba de la Varianza.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CuadradosMedios\CuadradosMedios.csproj">
+      <Project>{c1c74322-9a35-4b56-895d-254758680cb4}</Project>
+      <Name>CuadradosMedios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetodosComunes\MetodosComunes.csproj">
+      <Project>{53280b95-4e29-4478-ba52-c3a39ef4c1f8}</Project>
+      <Name>MetodosComunes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\metodovarianza\metodovarianza.csproj">
+      <Project>{86c46b98-0af6-434e-b7ae-02c530aaf888}</Project>
+      <Name>metodovarianza</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SELLO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoFormulario.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

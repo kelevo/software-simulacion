@@ -1,0 +1,9 @@
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\bin\Debug\MetodosComunes.dll
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\bin\Debug\MetodosComunes.pdb
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\bin\Debug\CuadradosMedios.dll
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\bin\Debug\CuadradosMedios.pdb
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\obj\Debug\MetodosComunes.csprojAssemblyReference.cache
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\obj\Debug\MetodosComunes.csproj.CoreCompileInputs.cache
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\obj\Debug\MetodosComunes.csproj.CopyComplete
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\obj\Debug\MetodosComunes.dll
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\MetodosComunes\obj\Debug\MetodosComunes.pdb

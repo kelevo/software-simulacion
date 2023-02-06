@@ -1,0 +1,6 @@
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\CuadradosMedios\bin\Debug\CuadradosMedios.dll
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\CuadradosMedios\bin\Debug\CuadradosMedios.pdb
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\CuadradosMedios\obj\Debug\CuadradosMedios.csprojAssemblyReference.cache
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\CuadradosMedios\obj\Debug\CuadradosMedios.csproj.CoreCompileInputs.cache
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\CuadradosMedios\obj\Debug\CuadradosMedios.dll
+C:\Users\Patrick Hernandez\source\repos\simulacion2019\CuadradosMedios\obj\Debug\CuadradosMedios.pdb
